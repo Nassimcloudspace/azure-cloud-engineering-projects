@@ -26,6 +26,9 @@ The objective was to gain hands-on experience with Azure Management Groups, Azur
 ## Architecture
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/168a04eb-5d68-416e-81db-fde3ddd17d5e" />
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/93e540bb-23df-4d83-93db-626fd3fe68b9" />
+
+
 
 
 ---
