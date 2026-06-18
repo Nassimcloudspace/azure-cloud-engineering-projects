@@ -1,4 +1,4 @@
-# Azure Enterprise Landing Zone
+# Azure Governance Landing Zone with Hub and Spoke Network
 
 ## Overview
 
