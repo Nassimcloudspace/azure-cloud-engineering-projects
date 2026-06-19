@@ -5,7 +5,13 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: |
-    echo "Azure Pipeline Started"
-    echo "Bicep deployment project"
-  displayName: 'Pipeline Test'
+- task: AzureCLI@2
+  displayName: 'Deploy Bicep Template'
+  inputs:
+    azureSubscription: 'Azure-ServiceConnection'
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      az deployment group create \
+        --resource-group RG-Development \
+        --template-file projects/08-azure-bicep-cicd-with-azure-pipelines/main.bicep
